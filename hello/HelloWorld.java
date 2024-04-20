@@ -5,6 +5,9 @@ package hello;
 public class HelloWorld {
     /** Le programme commence ici */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String helloWorld = "Hello World !";
+        helloWorld = helloWorld.toUpperCase();
+
+        System.out.println(helloWorld);
     }
 }
