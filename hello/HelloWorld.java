@@ -5,9 +5,10 @@ package hello;
 public class HelloWorld {
     /** Le programme commence ici */
     public static void main(String[] args) {
-        String helloWorld = "Hello World !";
-        helloWorld = helloWorld.toUpperCase();
-
-        System.out.println(helloWorld);
+        sayHelloTo("Julian");
+    }
+    private static void sayHelloTo(String recipient){
+        System.out.println("Hello " + recipient);
     }
 }
+
